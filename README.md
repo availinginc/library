@@ -56,11 +56,27 @@ Availing Inc. — Feature-rich component library.
 ></h1>
 ```
 
+## H3
+
+```html
+<h1
+  class="avalinginc-theme-heading-three my-3 lg:my-6 text-xl lg:text-3xl subpixel-antialiased font-light text-left"
+></h1>
+```
+
 ## Introduction
 
 ```html
 <p
   className="avalinginc-theme-introduction my-3 text-xl md:text-3xl subpixel-antialiased font-light text-left"
+></p>
+```
+
+## Paragraph
+
+```html
+<p
+  className="avalinginc-theme-paragraph my-3 text-base subpixel-antialiased font-light text-left"
 ></p>
 ```
 
@@ -76,7 +92,7 @@ Availing Inc. — Feature-rich component library.
         target="_blank"
         href="https://x.com/availinginc/"
       >
-        <p class="mr-3 text-base subpixel-antialiased font-black text-left"></p>
+        <p class="mr-9 text-base subpixel-antialiased font-black text-left"></p>
       </a>
     </li>
   </ul>
