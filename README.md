@@ -30,14 +30,16 @@ Availing Inc. — Feature-rich component library.
 
 ```html
 <div
-  class="avalinginc-theme-container block h-full w-auto max-w-6xl mx-3 md:mx-9 xl:mx-auto"
+  class="avalinginc-theme-container flex flex-col flex-auto justify-center items-center h-full w-auto max-w-3xl mt-[3vh] lg:mt-[9vh] mx-3 md:mx-9 xl:mx-auto"
 ></div>
 ```
 
 ## Column
 
 ```html
-<div class="avalinginc-theme-column flex flex-col flex-auto"></div>
+<div
+  class="avalinginc-theme-column flex flex-col flex-auto justify-self-center"
+></div>
 ```
 
 ## Logo
@@ -52,16 +54,16 @@ Availing Inc. — Feature-rich component library.
 
 ```html
 <h1
-  class="avalinginc-theme-heading-one my-3 text-3xl md:text-6xl subpixel-antialiased font-black text-left"
+  class="avalinginc-theme-heading-one my-3 text-3xl md:text-6xl subpixel-antialiased font-light text-left"
 ></h1>
 ```
 
 ## H3
 
 ```html
-<h1
+<h3
   class="avalinginc-theme-heading-three my-3 lg:my-6 text-xl lg:text-3xl subpixel-antialiased font-light text-left"
-></h1>
+></h3>
 ```
 
 ## Introduction
@@ -92,7 +94,9 @@ Availing Inc. — Feature-rich component library.
         target="_blank"
         href="https://x.com/availinginc/"
       >
-        <p class="mr-9 text-base subpixel-antialiased font-black text-left"></p>
+        <p
+          class="mb-3 md:mb-0 md:mr-6 text-base antialiased font-black text-left"
+        ></p>
       </a>
     </li>
   </ul>
