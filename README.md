@@ -106,6 +106,6 @@ Availing Inc. — Feature-rich component library.
 
 ```html
 <p
-  className="avalinginc-theme-copyright my-3 text-xs subpixel-antialiased font-light text-left"
+  className="avalinginc-theme-copyright my-3 text-xs subpixel-antialiased font-light text-left uppercase"
 ></p>
 ```
