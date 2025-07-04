@@ -25,6 +25,7 @@ Availing Inc. — Feature-rich component library.
 - Font Style: not-italic
 - Font Weight: font-light
 - Text Align: text-left
+- Animation: transition-all
 
 ## Container
 
@@ -89,14 +90,12 @@ Availing Inc. — Feature-rich component library.
   <ul class="avalinginc-theme-footer flex flex-col md:flex-row flex-auto my-3">
     <li class="flex items-center">
       <a
-        class="transition-all"
+        class="mb-3 md:mb-0 md:mr-6 text-base antialiased font-black text-left transition-all"
         rel="noopener noreferrer"
         target="_blank"
         href="https://x.com/availinginc/"
       >
-        <p
-          class="mb-3 md:mb-0 md:mr-6 text-base antialiased font-black text-left"
-        ></p>
+        @availinginc
       </a>
     </li>
   </ul>
