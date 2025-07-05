@@ -43,6 +43,35 @@ Availing Inc. — Feature-rich component library.
 ></div>
 ```
 
+## Navbar
+
+```html
+<nav className="block relative mb-[9vh] invisible hidden md:visible md:block">
+  <ul className="flex flex-row items-center self-center mx-auto space-x-3">
+    <li className="flex flex-col justify-self-start mr-9">
+      <a rel="noopener noreferrer" target="_self" to="/">
+        <img
+          src="{Availinginc}"
+          className="logo"
+          alt="Availing Inc. logo"
+          height="{30}"
+          width="{30}"
+        />
+      </a>
+    </li>
+    <li>
+      <a
+        className="block md:flex md:flex-col md:flex-auto md:justify-self-start w-full mx-auto p-3 text-xl text-center text-neutral-300  hover:text-lime-600  transition-all"
+        rel="noopener noreferrer"
+        target="_self"
+        to="/"
+      >
+      </a>
+    </li>
+  </ul>
+</nav>
+```
+
 ## Logo
 
 ```html
@@ -83,6 +112,17 @@ Availing Inc. — Feature-rich component library.
 ></p>
 ```
 
+## Button
+
+```html
+<button
+  className="block w-full mx-auto p-3 text-center text-neutral-800 bg-lime-600 hover:text-neutral-900 hover:bg-neutral-300 transition-all cursor-pointer"
+  type="submit"
+>
+  Sign Up
+</button>
+```
+
 ## Footer
 
 ```html
@@ -106,6 +146,30 @@ Availing Inc. — Feature-rich component library.
 
 ```html
 <p
-  className="avalinginc-theme-copyright my-3 text-xs subpixel-antialiased font-light text-left uppercase"
-></p>
+  className="avalinginc-theme-copyright flex flex-col md:flex-row flex-auto my-3 text-xs subpixel-antialiased font-light text-left uppercase"
+>
+  <span>© {{ year }} Availing Inc. All rights reserved. </span>
+  <span class="mx-3 invisible md:visible">|</span>
+  <span>
+    <a
+      class="avalinginc-theme-policy transition-all text-xs subpixel-antialiased font-light text-left uppercase"
+      rel="noopener noreferrer"
+      target="_self"
+      href="/privacy"
+    >
+      Privacy policy
+    </a></span
+  >
+  <span class="mx-3 invisible md:visible">|</span>
+  <span>
+    <a
+      class="avalinginc-theme-email transition-all text-xs subpixel-antialiased font-light text-left uppercase"
+      rel="noopener noreferrer"
+      target="_blank"
+      href="mailto:contact@availing.io"
+    >
+      contact@availing.io
+    </a></span
+  >
+</p>
 ```
