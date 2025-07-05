@@ -127,10 +127,12 @@ Availing Inc. — Feature-rich component library.
 
 ```html
 <footer>
-  <ul class="avalinginc-theme-footer flex flex-col md:flex-row flex-auto my-3">
+  <ul
+    class="avalinginc-theme-footer flex flex-col md:flex-row flex-auto my-3 antialiased font-black text-left transition-all"
+  >
     <li class="flex items-center">
       <a
-        class="mb-3 md:mb-0 md:mr-6 text-base antialiased font-black text-left transition-all"
+        class="mb-3 md:mb-0 md:mr-6"
         rel="noopener noreferrer"
         target="_blank"
         href="https://x.com/availinginc/"
