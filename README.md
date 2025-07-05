@@ -146,13 +146,13 @@ Availing Inc. — Feature-rich component library.
 
 ```html
 <p
-  className="avalinginc-theme-copyright flex flex-col md:flex-row flex-auto my-3 text-xs subpixel-antialiased font-light text-left uppercase"
+  className="avalinginc-theme-copyright flex flex-col md:flex-row flex-auto my-3 text-xs subpixel-antialiased font-light text-left uppercase text-neutral-900 hover:text-neutral-600 transition-all"
 >
   <span>© {{ year }} Availing Inc. All rights reserved. </span>
   <span class="mx-3 invisible md:visible">|</span>
   <span>
     <a
-      class="avalinginc-theme-policy transition-all text-xs subpixel-antialiased font-light text-left uppercase"
+      class="avalinginc-theme-policy"
       rel="noopener noreferrer"
       target="_self"
       href="/privacy"
@@ -163,7 +163,7 @@ Availing Inc. — Feature-rich component library.
   <span class="mx-3 invisible md:visible">|</span>
   <span>
     <a
-      class="avalinginc-theme-email transition-all text-xs subpixel-antialiased font-light text-left uppercase"
+      class="avalinginc-theme-email"
       rel="noopener noreferrer"
       target="_blank"
       href="mailto:contact@availing.io"
