@@ -1,0 +1,19 @@
+{
+  "name": "availinginc-library",
+  "version": "1.0.1",
+  "description": "Feature-rich component library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/availinginc/library.git"
+  },
+  "author": "Availing Inc.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/availinginc/library/issues"
+  },
+  "homepage": "https://github.com/availinginc/library#readme"
+}
