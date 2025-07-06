@@ -1,5 +1,5 @@
 {
-  "name": "availinginc-library",
+  "name": "@availing/library",
   "version": "1.0.1",
   "description": "Feature-rich component library",
   "main": "index.js",
@@ -11,9 +11,13 @@
     "url": "git+https://github.com/availinginc/library.git"
   },
   "author": "Availing Inc.",
-  "license": "ISC",
+  "license": "MPL-2.0",
   "bugs": {
     "url": "https://github.com/availinginc/library/issues"
   },
-  "homepage": "https://github.com/availinginc/library#readme"
+  "homepage": "https://github.com/availinginc/library#readme",
+  "dependencies": {
+    "my-package": "^0.0.0"
+  },
+  "devDependencies": {}
 }

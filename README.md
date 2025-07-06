@@ -4,7 +4,7 @@ Availing Inc. — Feature-rich component library.
 
 # Ordering of Tailwind CSS classes is important for consistency and readability.
 
-- Avaling Inc. Theme Class: avalinginc-theme-container
+- Availing Inc. Theme Class: avalinginc-theme-container
 - Z-Index: z-0
 - Position: relative
 - Scale: sm: md: lg: xl: 3xl:
@@ -23,9 +23,9 @@ Availing Inc. — Feature-rich component library.
 - Margin Y Auto: my-auto
 - Font Family: font-sans
 - Font Size: text-3xl
-- Font Smoothing: subpixel-antialiased
-- Font Style: not-italic
 - Font Weight: font-light
+- Font Style: not-italic
+- Font Smoothing: subpixel-antialiased
 - Text Align: text-left
 - Hover: hover:text-neutral-600
 - Animation: transition-all
