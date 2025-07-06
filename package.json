@@ -1,6 +1,6 @@
 {
   "name": "@availing/library",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Feature-rich component library",
   "main": "index.js",
   "scripts": {
