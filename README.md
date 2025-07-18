@@ -36,7 +36,7 @@ Availing Inc. — Feature-rich component library.
 
 ```html
 <div
-  class="avalinginc-theme-container flex flex-col flex-auto justify-center items-center h-full w-auto max-w-3xl mt-[3vh] lg:mt-[9vh] mx-3 md:mx-9 xl:mx-auto"
+  class="avalinginc-theme-container z-0 flex flex-col flex-auto justify-center items-center h-full w-auto max-w-6xl my-[3vh] mx-3 xl:mx-auto"
 ></div>
 ```
 
@@ -44,14 +44,14 @@ Availing Inc. — Feature-rich component library.
 
 ```html
 <div
-  class="avalinginc-theme-column flex flex-col flex-auto justify-self-center"
+  class="avalinginc-theme-column flex flex-col flex-auto justify-self-center h-auto min-w-0 m-3 p-3"
 ></div>
 ```
 
 ## Navbar
 
 ```html
-<nav className="block relative mb-[9vh] invisible hidden md:visible md:block">
+<nav className="relative my-[9vh] invisible md:visible hidden md:block">
   <ul className="flex flex-row items-center self-center mx-auto space-x-3">
     <li className="flex flex-col justify-self-start mr-9">
       <a rel="noopener noreferrer" target="_self" to="/">
@@ -69,10 +69,19 @@ Availing Inc. — Feature-rich component library.
         className="block md:flex md:flex-col md:flex-auto md:justify-self-start w-full mx-auto p-3 text-xl text-center text-neutral-300 hover:text-neutral-900 transition-all"
         rel="noopener noreferrer"
         target="_self"
-        to="/"
+        href="/"
       >
         Home
       </a>
+    </li>
+  </ul>
+</nav>
+<nav
+  className="z-30 relative block md:hidden visible md:invisible my-[9vh] md:my-0"
+>
+  <ul className="flex flex-row justify-center items-center self-center">
+    <li className="flex flex-col flex-auto justify-self-start">
+      <a rel="noopener noreferrer" target="_self" href="/"> Home </a>
     </li>
   </ul>
 </nav>
@@ -82,7 +91,7 @@ Availing Inc. — Feature-rich component library.
 
 ```html
 <div
-  class="avalinginc-theme-logo h-9 w-9 md:w-18 md:h-18 lg:w-30 lg:h-30 my-3"
+  class="avalinginc-theme-logo h-9 w-9 max-h-9 max-w-9 md:h-18 md:w-18 md:max-h-18 md:max-w-18 my-3"
 ></div>
 ```
 
@@ -90,15 +99,15 @@ Availing Inc. — Feature-rich component library.
 
 ```html
 <h1
-  class="avalinginc-theme-heading-one mx-auto text-3xl md:text-6xl font-bold text-neutral-900 text-left subpixel-antialiased"
+  class="avalinginc-theme-heading-one mx-auto text-5xl md:text-6xl font-bold text-neutral-900 text-left subpixel-antialiased"
 ></h1>
 ```
 
-## H1
+## H2
 
 ```html
 <h1
-  class="avalinginc-theme-heading-two my-3 lg:my-6 text-2xl lg:text-3xl font-bold text-neutral-900 text-left subpixel-antialiased"
+  class="avalinginc-theme-heading-two my-3 lg:my-6 text-4xl lg:text-5xl font-bold text-neutral-900 text-left subpixel-antialiased"
 ></h1>
 ```
 
@@ -106,7 +115,7 @@ Availing Inc. — Feature-rich component library.
 
 ```html
 <h3
-  class="avalinginc-theme-heading-three my-3 lg:my-6 text-xl lg:text-3xl font-light text-neutral-900 text-left subpixel-antialiased"
+  class="avalinginc-theme-heading-three my-3 lg:my-6 text-3xl lg:text-4xl font-light text-neutral-900 text-left subpixel-antialiased"
 ></h3>
 ```
 
@@ -114,7 +123,7 @@ Availing Inc. — Feature-rich component library.
 
 ```html
 <p
-  className="avalinginc-theme-introduction my-3 text-xl md:text-3xl font-light text-neutral-900 text-left subpixel-antialiased"
+  className="avalinginc-theme-introduction my-3 text-2xl md:text-3xl font-light text-neutral-900 text-left subpixel-antialiased"
 ></p>
 ```
 
@@ -122,7 +131,13 @@ Availing Inc. — Feature-rich component library.
 
 ```html
 <p
-  className="avalinginc-theme-paragraph my-3 text-base font-light text-neutral-900 text-left subpixel-antialiased"
+  className="avalinginc-theme-paragraph my-3 text-base md:text-xl font-light text-neutral-900 text-left subpixel-antialiased"
+></p>
+```
+
+```html
+<p
+  className="avalinginc-theme-paragraph my-3 text-base md:text-2xl font-light text-neutral-900 text-left subpixel-antialiased"
 ></p>
 ```
 
@@ -142,11 +157,11 @@ Availing Inc. — Feature-rich component library.
 ```html
 <footer>
   <ul
-    class="avalinginc-theme-footer flex flex-col md:flex-row flex-auto my-3 font-black text-neutral-900 text-left subpixel-antialiased transition-all"
+    class="avalinginc-theme-footer flex flex-col md:flex-row flex-auto my-3 font-black text-neutral-900 text-left subpixel-antialiased"
   >
     <li class="flex items-center">
       <a
-        class="mb-3 md:mb-0 md:mr-6"
+        class="mb-3 md:mb-0 md:mr-6 hover:text-neutral-300 transition-all"
         rel="noopener noreferrer"
         target="_blank"
         href="https://x.com/availinginc/"
@@ -162,7 +177,7 @@ Availing Inc. — Feature-rich component library.
 
 ```html
 <p
-  className="avalinginc-theme-copyright flex flex-col md:flex-row flex-auto my-3 text-xs font-light text-neutral-900 hover:text-neutral-600 text-left uppercase subpixel-antialiased transition-all"
+  className="avalinginc-theme-copyright flex flex-col md:flex-row flex-auto my-[3vh] text-xs font-light text-neutral-900 hover:text-neutral-600 text-left uppercase subpixel-antialiased transition-all"
 >
   <span>© {{ year }} Availing Inc. All rights reserved. </span>
   <span class="mx-3 invisible md:visible">|</span>
