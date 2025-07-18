@@ -25,10 +25,12 @@ Availing Inc. — Feature-rich component library.
 - Font Size: text-3xl
 - Font Weight: font-light
 - Font Style: not-italic
-- Font Smoothing: subpixel-antialiased
+- Font Color: text-neutral-900
 - Text Align: text-left
+- Font Smoothing: subpixel-antialiased
 - Hover: hover:text-neutral-600
 - Animation: transition-all
+- Cursor: cursor-pointer
 
 ## Container
 
@@ -64,11 +66,12 @@ Availing Inc. — Feature-rich component library.
     </li>
     <li>
       <a
-        className="block md:flex md:flex-col md:flex-auto md:justify-self-start w-full mx-auto p-3 text-xl text-center text-neutral-300  hover:text-lime-600  transition-all"
+        className="block md:flex md:flex-col md:flex-auto md:justify-self-start w-full mx-auto p-3 text-xl text-center text-neutral-300 hover:text-neutral-900 transition-all"
         rel="noopener noreferrer"
         target="_self"
         to="/"
       >
+        Home
       </a>
     </li>
   </ul>
@@ -79,7 +82,7 @@ Availing Inc. — Feature-rich component library.
 
 ```html
 <div
-  class="avalinginc-theme-logo w-9 h-9 md:w-18 md:h-18 lg:w-30 lg:h-30 my-3"
+  class="avalinginc-theme-logo h-9 w-9 md:w-18 md:h-18 lg:w-30 lg:h-30 my-3"
 ></div>
 ```
 
@@ -87,7 +90,15 @@ Availing Inc. — Feature-rich component library.
 
 ```html
 <h1
-  class="avalinginc-theme-heading-one my-3 text-3xl md:text-6xl subpixel-antialiased font-light text-left"
+  class="avalinginc-theme-heading-one mx-auto text-3xl md:text-6xl font-bold text-neutral-900 text-left subpixel-antialiased"
+></h1>
+```
+
+## H1
+
+```html
+<h1
+  class="avalinginc-theme-heading-two my-3 lg:my-6 text-2xl lg:text-3xl font-bold text-neutral-900 text-left subpixel-antialiased"
 ></h1>
 ```
 
@@ -95,7 +106,7 @@ Availing Inc. — Feature-rich component library.
 
 ```html
 <h3
-  class="avalinginc-theme-heading-three my-3 lg:my-6 text-xl lg:text-3xl subpixel-antialiased font-light text-left"
+  class="avalinginc-theme-heading-three my-3 lg:my-6 text-xl lg:text-3xl font-light text-neutral-900 text-left subpixel-antialiased"
 ></h3>
 ```
 
@@ -103,7 +114,7 @@ Availing Inc. — Feature-rich component library.
 
 ```html
 <p
-  className="avalinginc-theme-introduction my-3 text-xl md:text-3xl subpixel-antialiased font-light text-left"
+  className="avalinginc-theme-introduction my-3 text-xl md:text-3xl font-light text-neutral-900 text-left subpixel-antialiased"
 ></p>
 ```
 
@@ -111,7 +122,7 @@ Availing Inc. — Feature-rich component library.
 
 ```html
 <p
-  className="avalinginc-theme-paragraph my-3 text-base subpixel-antialiased font-light text-left"
+  className="avalinginc-theme-paragraph my-3 text-base font-light text-neutral-900 text-left subpixel-antialiased"
 ></p>
 ```
 
@@ -119,7 +130,7 @@ Availing Inc. — Feature-rich component library.
 
 ```html
 <button
-  className="block w-full mx-auto p-3 text-center text-neutral-800 bg-lime-600 hover:text-neutral-900 hover:bg-neutral-300 transition-all cursor-pointer"
+  className="block w-full mx-auto p-3 font-black text-neutral-800 bg-neutral-300 hover:text-neutral-900 hover:bg-neutral-400 text-center subpixel-antialiased transition-all cursor-pointer"
   type="submit"
 >
   Sign Up
@@ -131,7 +142,7 @@ Availing Inc. — Feature-rich component library.
 ```html
 <footer>
   <ul
-    class="avalinginc-theme-footer flex flex-col md:flex-row flex-auto my-3 antialiased font-black text-left transition-all"
+    class="avalinginc-theme-footer flex flex-col md:flex-row flex-auto my-3 font-black text-neutral-900 text-left subpixel-antialiased transition-all"
   >
     <li class="flex items-center">
       <a
@@ -151,7 +162,7 @@ Availing Inc. — Feature-rich component library.
 
 ```html
 <p
-  className="avalinginc-theme-copyright flex flex-col md:flex-row flex-auto my-3 text-xs subpixel-antialiased font-light text-left uppercase text-neutral-900 hover:text-neutral-600 transition-all"
+  className="avalinginc-theme-copyright flex flex-col md:flex-row flex-auto my-3 text-xs font-light text-neutral-900 hover:text-neutral-600 text-left uppercase subpixel-antialiased transition-all"
 >
   <span>© {{ year }} Availing Inc. All rights reserved. </span>
   <span class="mx-3 invisible md:visible">|</span>
