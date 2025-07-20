@@ -27,6 +27,8 @@ Availing Inc. — Feature-rich component library.
 - Font Style: not-italic
 - Font Color: text-neutral-900
 - Text Align: text-left
+- Border: border-1
+- Border Color: border-neutral-900
 - Font Smoothing: subpixel-antialiased
 - Hover: hover:text-neutral-600
 - Animation: transition-all
@@ -87,6 +89,21 @@ Availing Inc. — Feature-rich component library.
 </nav>
 ```
 
+## Navlist
+
+```html
+<li>
+  <a
+    className="block md:flex md:flex-col md:flex-auto md:justify-self-start w-full mx-auto p-3 text-xl text-neutral-300 hover:text-lime-600 text-center subpixel-antialiased transition-all"
+    rel="noopener noreferrer"
+    target="_self"
+    to="/"
+  >
+    Home
+  </a>
+</li>
+```
+
 ## Logo
 
 ```html
@@ -123,7 +140,7 @@ Availing Inc. — Feature-rich component library.
 
 ```html
 <p
-  className="avalinginc-theme-introduction my-3 text-2xl md:text-3xl font-light text-neutral-900 text-left subpixel-antialiased"
+  className="avalinginc-theme-introduction my-9 text-2xl md:text-3xl font-light text-neutral-900 text-left subpixel-antialiased"
 ></p>
 ```
 
@@ -145,7 +162,7 @@ Availing Inc. — Feature-rich component library.
 
 ```html
 <button
-  className="block w-full mx-auto p-3 font-black text-neutral-800 bg-neutral-300 hover:text-neutral-900 hover:bg-neutral-400 text-center subpixel-antialiased transition-all cursor-pointer"
+  className="block w-full mx-auto py-3 px-9 text-center font-bold wtext-neutral-900 hover:text-neutral-300 bg-neutral-300 hover:bg-neutral-900 subpixel-antialiased transition-all cursor-pointer"
   type="submit"
 >
   Sign Up
